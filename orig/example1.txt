@@ -1,0 +1,17 @@
+MFile 0 1 96
+MTrk
+0 TimeSig 4/4 24 8
+0 Tempo 500000
+0 PrCh ch=1 p=5
+0 PrCh ch=2 p=46
+0 PrCh ch=3 p=70
+0 On ch=3 n=48 v=96
+0 On ch=3 n=60 v=96
+96 On ch=2 n=67 v=64
+192 On ch=1 n=76 v=32
+384 Off ch=3 n=48 v=64
+384 Off ch=3 n=60 v=64
+384 Off ch=2 n=67 v=64
+384 Off ch=1 n=76 v=64
+384 Meta TrkEnd
+TrkEnd

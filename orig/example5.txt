@@ -1,0 +1,277 @@
+MFile 0 1 48
+MTrk
+0 Meta Text "Trash!!\0                              "
+0 On ch=1 n=62 v=64
+0 Par ch=1 c=4 v=43
+0 Par ch=1 c=4 v=46
+1 Par ch=1 c=4 v=51
+3 Par ch=1 c=4 v=55
+4 Par ch=1 c=4 v=58
+5 Par ch=1 c=4 v=62
+6 Par ch=1 c=4 v=65
+7 Par ch=1 c=4 v=68
+8 ChPr ch=1 v=2
+10 ChPr ch=1 v=5
+11 Par ch=1 c=4 v=72
+12 ChPr ch=1 v=0
+12 Par ch=1 c=4 v=77
+12 On ch=1 n=62 v=0
+13 Par ch=1 c=4 v=83
+14 Par ch=1 c=4 v=90
+15 Par ch=1 c=4 v=97
+16 Par ch=1 c=4 v=103
+17 ChPr ch=1 v=3
+18 Par ch=1 c=4 v=108
+19 ChPr ch=1 v=18
+19 Par ch=1 c=4 v=112
+20 Par ch=1 c=4 v=116
+21 ChPr ch=1 v=48
+21 Par ch=1 c=4 v=119
+22 Par ch=1 c=4 v=122
+23 ChPr ch=1 v=83
+23 Par ch=1 c=4 v=127
+24 On ch=1 n=64 v=64
+25 ChPr ch=1 v=117
+27 ChPr ch=1 v=127
+31 Par ch=1 c=1 v=83
+33 Par ch=1 c=1 v=80
+35 Par ch=1 c=1 v=76
+36 Par ch=1 c=4 v=119
+36 On ch=1 n=64 v=0
+37 Par ch=1 c=4 v=112
+38 Par ch=1 c=1 v=73
+38 Par ch=1 c=4 v=106
+39 Par ch=1 c=4 v=100
+40 Par ch=1 c=4 v=95
+41 Par ch=1 c=1 v=71
+42 Par ch=1 c=4 v=90
+43 Par ch=1 c=4 v=85
+44 Par ch=1 c=4 v=80
+45 Par ch=1 c=4 v=76
+46 Par ch=1 c=1 v=65
+46 Par ch=1 c=4 v=71
+47 Par ch=1 c=4 v=66
+48 On ch=1 n=66 v=64
+48 Par ch=1 c=4 v=60
+49 Par ch=1 c=1 v=62
+49 Par ch=1 c=4 v=55
+50 Par ch=1 c=4 v=49
+51 Par ch=1 c=1 v=58
+51 Par ch=1 c=4 v=43
+52 Par ch=1 c=4 v=37
+54 Par ch=1 c=1 v=53
+54 Par ch=1 c=4 v=30
+55 Par ch=1 c=4 v=25
+56 Par ch=1 c=1 v=49
+56 Par ch=1 c=4 v=19
+57 Pb ch=1 v=8060
+57 Par ch=1 c=4 v=15
+58 Pb ch=1 v=7931
+58 Par ch=1 c=4 v=10
+59 Pb ch=1 v=7800
+59 Par ch=1 c=4 v=4
+60 Par ch=1 c=1 v=44
+60 Par ch=1 c=4 v=0
+60 On ch=1 n=66 v=0
+61 Pb ch=1 v=7671
+61 Pb ch=1 v=7540
+62 Par ch=1 c=1 v=40
+63 Pb ch=1 v=7411
+64 Pb ch=1 v=7280
+64 Pb ch=1 v=7020
+65 Pb ch=1 v=6891
+65 Par ch=1 c=1 v=35
+66 Pb ch=1 v=6760
+67 Pb ch=1 v=6631
+67 Pb ch=1 v=6371
+68 Pb ch=1 v=6240
+68 Par ch=1 c=1 v=28
+69 Pb ch=1 v=5980
+70 Pb ch=1 v=5720
+70 Pb ch=1 v=5591
+71 Pb ch=1 v=5460
+71 Par ch=1 c=1 v=23
+72 On ch=1 n=67 v=64
+72 Pb ch=1 v=5331
+73 Pb ch=1 v=5200
+74 Pb ch=1 v=5071
+74 Par ch=1 c=1 v=19
+75 Par ch=1 c=4 v=3
+76 Par ch=1 c=4 v=8
+77 Par ch=1 c=4 v=12
+78 Par ch=1 c=4 v=16
+79 Par ch=1 c=4 v=22
+80 Par ch=1 c=1 v=24
+80 Par ch=1 c=4 v=28
+81 Pb ch=1 v=5331
+82 Pb ch=1 v=5591
+82 Par ch=1 c=4 v=34
+83 Par ch=1 c=1 v=29
+83 Par ch=1 c=4 v=40
+84 Pb ch=1 v=5851
+84 Par ch=1 c=4 v=47
+84 On ch=1 n=67 v=0
+85 Pb ch=1 v=6240
+85 Par ch=1 c=4 v=55
+86 Par ch=1 c=1 v=36
+86 Pb ch=1 v=6500
+86 Par ch=1 c=4 v=62
+87 Pb ch=1 v=6760
+87 Par ch=1 c=4 v=68
+88 Pb ch=1 v=7020
+88 Par ch=1 c=1 v=44
+88 Par ch=1 c=4 v=74
+89 Pb ch=1 v=7280
+89 Par ch=1 c=4 v=81
+90 Pb ch=1 v=7540
+90 Par ch=1 c=4 v=86
+91 Pb ch=1 v=7800
+91 Par ch=1 c=1 v=51
+91 Par ch=1 c=4 v=93
+92 Pb ch=1 v=8060
+92 Par ch=1 c=4 v=99
+93 Pb ch=1 v=8192
+93 Par ch=1 c=4 v=106
+94 Par ch=1 c=1 v=58
+95 Par ch=1 c=4 v=111
+96 On ch=1 n=69 v=64
+96 Par ch=1 c=1 v=62
+96 Par ch=1 c=4 v=114
+97 Par ch=1 c=4 v=116
+98 Par ch=1 c=1 v=66
+98 Par ch=1 c=4 v=119
+99 Par ch=1 c=4 v=122
+100 Par ch=1 c=4 v=125
+101 Par ch=1 c=1 v=69
+101 Par ch=1 c=4 v=127
+103 Par ch=1 c=1 v=72
+105 Par ch=1 c=1 v=76
+107 Par ch=1 c=1 v=81
+108 On ch=1 n=69 v=0
+109 Par ch=1 c=1 v=84
+111 Par ch=1 c=1 v=88
+113 Par ch=1 c=1 v=92
+116 Par ch=1 c=1 v=97
+117 Pb ch=1 v=8452
+118 Pb ch=1 v=8712
+119 Pb ch=1 v=8972
+120 On ch=1 n=71 v=64
+120 Par ch=1 c=1 v=106
+120 Par ch=1 c=4 v=127
+121 Pb ch=1 v=9232
+121 Pb ch=1 v=9492
+121 Par ch=1 c=4 v=120
+122 Par ch=1 c=4 v=114
+123 Par ch=1 c=1 v=112
+123 Pb ch=1 v=9883
+123 Par ch=1 c=4 v=108
+125 Pb ch=1 v=10143
+125 Par ch=1 c=1 v=116
+125 Par ch=1 c=4 v=104
+126 Par ch=1 c=4 v=101
+127 Pb ch=1 v=10403
+127 Par ch=1 c=4 v=100
+128 Pb ch=1 v=10663
+128 Par ch=1 c=4 v=98
+129 Par ch=1 c=1 v=120
+129 Par ch=1 c=4 v=93
+130 Pb ch=1 v=10923
+130 Par ch=1 c=4 v=86
+131 Par ch=1 c=4 v=78
+132 Pb ch=1 v=11183
+132 Par ch=1 c=4 v=70
+132 On ch=1 n=71 v=0
+133 Par ch=1 c=1 v=124
+133 Par ch=1 c=4 v=62
+134 Par ch=1 c=4 v=56
+135 Par ch=1 c=4 v=52
+136 Par ch=1 c=4 v=48
+137 Pb ch=1 v=11052
+137 Par ch=1 c=4 v=45
+138 Pb ch=1 v=10923
+138 Par ch=1 c=1 v=121
+139 Pb ch=1 v=10663
+139 Par ch=1 c=4 v=41
+140 Pb ch=1 v=10403
+140 Pb ch=1 v=10143
+140 Par ch=1 c=4 v=37
+141 Pb ch=1 v=9883
+141 Par ch=1 c=1 v=110
+141 Par ch=1 c=4 v=33
+142 Pb ch=1 v=9492
+142 Par ch=1 c=4 v=28
+143 Pb ch=1 v=9232
+143 Pb ch=1 v=8843
+143 Par ch=1 c=4 v=24
+144 On ch=1 n=73 v=64
+144 Pb ch=1 v=8583
+144 Par ch=1 c=1 v=96
+144 Par ch=1 c=4 v=19
+145 Pb ch=1 v=8192
+145 Par ch=1 c=4 v=14
+146 Par ch=1 c=4 v=10
+147 Par ch=1 c=1 v=80
+147 Par ch=1 c=4 v=6
+148 Par ch=1 c=4 v=2
+149 Par ch=1 c=1 v=69
+149 Par ch=1 c=4 v=0
+151 Par ch=1 c=1 v=60
+153 Par ch=1 c=1 v=54
+156 Par ch=1 c=1 v=50
+156 On ch=1 n=73 v=0
+158 Par ch=1 c=1 v=47
+159 Par ch=1 c=4 v=2
+160 Par ch=1 c=1 v=43
+160 Par ch=1 c=4 v=6
+161 Par ch=1 c=4 v=11
+162 Pb ch=1 v=8060
+163 Pb ch=1 v=7931
+163 Par ch=1 c=1 v=37
+163 Par ch=1 c=4 v=16
+164 Pb ch=1 v=7671
+164 Pb ch=1 v=7411
+164 Par ch=1 c=4 v=22
+165 Pb ch=1 v=7151
+165 Par ch=1 c=4 v=29
+166 Pb ch=1 v=6891
+166 Par ch=1 c=1 v=25
+166 Par ch=1 c=4 v=36
+167 Pb ch=1 v=6500
+167 Pb ch=1 v=6371
+167 Par ch=1 c=4 v=43
+168 On ch=1 n=74 v=64
+168 Pb ch=1 v=5980
+168 Par ch=1 c=4 v=50
+169 Pb ch=1 v=5851
+169 Par ch=1 c=1 v=13
+169 Par ch=1 c=4 v=58
+170 Pb ch=1 v=5591
+170 Par ch=1 c=4 v=66
+171 Pb ch=1 v=5331
+171 Pb ch=1 v=5200
+171 Par ch=1 c=4 v=71
+172 Pb ch=1 v=5071
+172 Par ch=1 c=1 v=2
+172 Par ch=1 c=4 v=74
+174 Pb ch=1 v=4811
+175 Par ch=1 c=1 v=0
+175 Pb ch=1 v=4680
+180 On ch=1 n=74 v=0
+182 Pb ch=1 v=4940
+183 Pb ch=1 v=5200
+184 Par ch=1 c=1 v=9
+184 Pb ch=1 v=5591
+185 Pb ch=1 v=6240
+186 Pb ch=1 v=6891
+187 Pb ch=1 v=7280
+187 Par ch=1 c=1 v=33
+188 Pb ch=1 v=7931
+188 Pb ch=1 v=8192
+190 Par ch=1 c=1 v=51
+190 ChPr ch=1 v=40
+192 Par ch=1 c=1 v=63
+193 ChPr ch=1 v=0
+195 Par ch=1 c=1 v=71
+197 Par ch=1 c=1 v=74
+305 Meta TrkEnd
+TrkEnd

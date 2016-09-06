@@ -1,0 +1,21 @@
+MFile 0 1 24
+MTrk
+0 Meta Text "D scale                               "
+0 On ch=1 n=62 v=64
+12 On ch=1 n=62 v=0
+24 On ch=1 n=64 v=64
+36 On ch=1 n=64 v=0
+48 On ch=1 n=66 v=64
+60 On ch=1 n=66 v=0
+72 On ch=1 n=67 v=64
+84 On ch=1 n=67 v=0
+96 On ch=1 n=69 v=64
+108 On ch=1 n=69 v=0
+120 On ch=1 n=71 v=64
+132 On ch=1 n=71 v=0
+144 On ch=1 n=73 v=64
+156 On ch=1 n=73 v=0
+168 On ch=1 n=74 v=64
+180 On ch=1 n=74 v=0
+192 Meta TrkEnd
+TrkEnd

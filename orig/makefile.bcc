@@ -1,0 +1,39 @@
+# makefile.bcc ie,
+# $Id: makefile.unx,v 1.3 1991/11/15 19:31:00 piet Rel $
+# with the conversion of ".o" into ".obj", the assignment "CC=bcc"
+# plus other minor modifications
+
+CFLAGS = -O -DSETMODE
+# If you have an old version of flex that defines yyleng
+# as a macro rather than a variable, uncomment the following line:
+# CFLAGS = -O -DNO_YYLENG_VAR
+CC=bcc
+# borland c compiler
+
+SRCS = crack.c mf2t.c midifile.c midifile.h t2mf.c t2mf.h \
+       t2mf.fl t2mflex.c yyread.c \
+       README.TXT makefile.st makefile.unx makefile.bcc makefile.msc\
+       example1.mid example1.txt example2.mid example2.txt example3.mid \
+       example3.txt example4.mid example4.txt example5.mid example5.txt
+
+EXECS = mf2t t2mf
+       
+all:	$(EXECS)
+
+t2mf:	midifile.obj t2mf.obj t2mf.h t2mflex.obj crack.obj
+	$(CC) t2mf.obj midifile.obj crack.obj t2mflex.obj 
+	
+t2mflex.c: t2mf.fl
+	flex -is -Ce t2mf.fl
+	ren lex.yy.c t2mflex.c
+
+t2mflex.obj: t2mflex.c t2mf.h
+
+mf2t:	midifile.obj mf2t.obj crack.obj
+	$(CC) mf2t.obj midifile.obj crack.obj 
+
+tar:	
+	pkzip mf2t $(SRCS)
+
+zip:	$(SRCS) $(EXECS)
+	zip -9 mf2t $(SRCS) $(EXECS)

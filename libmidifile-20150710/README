@@ -1,0 +1,27 @@
+
+Overview
+────────
+
+This library provides functions for reading and writing standard MIDI
+files.  It was originally written by Tim Thompson <tjt@nosuch.com>.  It
+has been modified and corrected by Piet van Oostrum <piet@cs.uu.nl>.  I
+have made some minor changes to it in order to work properly with GCC.
+
+
+Installation
+────────────
+
+Run ‘make’ to compile the library.  Run ‘make install’ to install the
+library and header file into $HOME/lib and $HOME/include.
+
+
+Usage
+─────
+
+Please see the file ‘midifile.txt’ for a description of the library and
+its functions.  Some parts may be outdated, since Piet van Oostrum
+<piet@cs.uu.nl> has made some changes and corrections to the source
+code.
+
+
+Mats Peterson <matsp888@yahoo.com>

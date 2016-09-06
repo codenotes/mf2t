@@ -1,0 +1,40 @@
+CFLAGS = -Wall -O2 -pipe -DBUILDING_MIDIFILE
+LDFLAGS = -s
+LIBS =
+INSTALL = install
+
+BINDIR = $(HOME)/bin
+LIBDIR = $(HOME)/lib
+INCDIR = $(HOME)/include
+MANDIR = $(HOME)/share/man
+
+DLL = cygmidifile.dll
+IMPLIB = libmidifile.dll.a
+OBJS = midifile.o
+INCLUDES = midifile.h
+MAN3 = midifile.3
+
+all: $(IMPLIB)
+
+$(IMPLIB): $(DLL)
+
+$(DLL): $(OBJS)
+	$(CC) $(LDFLAGS) -shared -o $(DLL) \
+		-Wl,--out-implib,$(IMPLIB) \
+		-Wl,--whole-archive $(OBJS) \
+		-Wl,--no-whole-archive $(LIBS)
+
+install: $(IMPLIB)
+	$(INSTALL) -d $(BINDIR)
+	$(INSTALL) -m 755 -s $(DLL) $(BINDIR)
+	$(INSTALL) -d $(LIBDIR)
+	$(INSTALL) -m 644 $(IMPLIB) $(LIBDIR)
+	$(INSTALL) -d $(INCDIR)
+	$(INSTALL) -m 644 $(INCLUDES) $(INCDIR)
+
+install-man: $(MAN3)
+	$(INSTALL) -d $(MANDIR)/man3
+	$(INSTALL) -m 644 $(MAN3) $(MANDIR)/man3
+
+clean:
+	rm -f $(DLL) $(IMPLIB) $(OBJS)

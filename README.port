@@ -1,0 +1,16 @@
+
+Installation
+────────────
+
+You will need the libmidifile library, which can be found at
+http://matsp888.no-ip.org/software/winunix/lib/libmidifile/.  Run ‘make’
+and ‘make install’ to install it.  It will be placed in $HOME/lib and
+$HOME/include.
+
+Run ‘make’ to compile the programs.  Run ‘make install’ to install the
+resulting executables into $HOME/bin.
+
+The original, unmodified source code is in the ‘orig’ directory.
+
+
+Mats Peterson <matsp888@yahoo.com>
