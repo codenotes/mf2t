@@ -1,4 +1,6 @@
 		MF2T/T2MF
+NOTE: fixed binary read freopen issue and ported thing to windows along with libmidifile all in one solution.
+
 
 Two programs to manipulate standard midifiles.
 
