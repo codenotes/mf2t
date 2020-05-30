@@ -42,6 +42,7 @@ MIDIFILE_PUBLIC extern void (*Mf_arbitrary)();
 MIDIFILE_PUBLIC extern void (*Mf_error)();
 MIDIFILE_PUBLIC extern long Mf_currtime;
 MIDIFILE_PUBLIC extern int Mf_nomerge;
+MIDIFILE_PUBLIC extern int Mf_usedeltatime;
 MIDIFILE_PUBLIC void mfread(void);
 MIDIFILE_PUBLIC void midifile(void);
 

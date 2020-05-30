@@ -41,6 +41,8 @@
  *          in the article “Introducing Standard MIDI Files”, published
  *          in Electronic Musician magazine, April, 1989.
  * 
+ * May 2020 – Phil Jonas <philjonascode@gmail.com>
+ *      added a flag that discards the use of cummulative time in favour of delta time
  */
 
 #include <stdio.h>
@@ -88,6 +90,8 @@ MIDIFILE_PUBLIC void (*Mf_wtempotrack)() = NULLFUNC;
 MIDIFILE_PUBLIC int Mf_nomerge = 0;
 /* current time in delta‐time units */
 MIDIFILE_PUBLIC long Mf_currtime = 0L;
+/* 1 => use delta time*/
+MIDIFILE_PUBLIC int Mf_usedeltatime = 0;
 
 /* private stuff */
 static long Mf_toberead = 0L;
@@ -430,7 +434,10 @@ static int readtrack(void) /* read a track chunk */
         (*Mf_starttrack)();
 
     while (Mf_toberead > 0) {
-        Mf_currtime += readvarinum();    /* delta time */
+		if(Mf_usedeltatime == 0)
+			Mf_currtime += readvarinum();    /* delta time */
+		else
+			Mf_currtime = readvarinum();
 
         c = egetc();
 

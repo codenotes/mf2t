@@ -334,6 +334,7 @@ static void usage(void)
 "  -n      write notes in symbolic form\n"
 "  -b|-t   write event times as bar:beat:click\n"
 "  -v      use slightly more verbose output\n"
+"  -d      use delta time\n"
 "  -f n    fold long text and hex entries at n characters\n", VERSION);
     exit(1);
 }
@@ -343,7 +344,8 @@ int main(int argc, char **argv)
     int c;
 
     Mf_nomerge = 1;
-    while ((c = getopt(argc, argv, "mnbtvf:h")) != -1) {
+	Mf_usedeltatime = 0;
+    while ((c = getopt(argc, argv, "mndbtvf:h")) != -1) {
         switch (c) {
             case 'm':
                 Mf_nomerge = 0;
@@ -351,6 +353,9 @@ int main(int argc, char **argv)
             case 'n':
                 notes++;
                 break;
+			case 'd':
+				Mf_usedeltatime = 1;
+				break;
             case 'b':
             case 't':
                 times++;
