@@ -544,7 +544,7 @@ int main(int argc, char **argv)
     }
     yyin = stdin;
 
-    if (optind < argc && !freopen(argv[optind], "w", stdout)) {
+    if (optind < argc && !freopen(argv[optind], "wb", stdout)) {
         fprintf(stderr, "freopen (%s): %s\n", argv[optind],
                 strerror(errno));
         exit(1);
