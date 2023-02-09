@@ -199,7 +199,7 @@ static void splitval()
 
 static void get16val()
 {
-    if (yylex() != VAL || yylex() != INT) syntax();
+    if (yylex() != INT) syntax();
     if (yyval < 0 || yyval > 65535)
         error("Value must be between 0 and 65535");
     data[0] = (yyval>>8)&0xff;
@@ -449,7 +449,7 @@ static void mywritetrack()
                         break;
 
                     case SEQNR:
-                        get16val ("SeqNr");
+                        get16val ();
                         mf_w_meta_event(delta, sequence_number,
                                 (unsigned char *)data, 2L);
                         break;
@@ -544,7 +544,7 @@ int main(int argc, char **argv)
     }
     yyin = stdin;
 
-    if (optind < argc && !freopen(argv[optind], "w", stdout)) {
+    if (optind < argc && !freopen(argv[optind], "wb", stdout)) {
         fprintf(stderr, "freopen (%s): %s\n", argv[optind],
                 strerror(errno));
         exit(1);
